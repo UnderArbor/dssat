@@ -1,8 +1,12 @@
+
+// import express from "express"
+// import path from "path"
+// import jdssat from "jdssat"
+
 const express = require("express")
 const path = require('path')
-
 const jdssat = require('jdssat')
-// jdssat.initialize()
+jdssat.initialize()
 
 const app = express()
 const port = 3000
